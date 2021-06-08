@@ -1,38 +1,22 @@
-.App {
+.container {
+  justify-content: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 10px;
+  font-size: 20pt;
+  color: steelblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("http://wallpapers4screen.com/Uploads/23-1-2016/14259/thumb2-monster-white-background-creative.jpg");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  color: steelblue;
+  width: 80px;
+  font-size: 14pt;
+  border: steelblue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  color: steelblue;
 }
